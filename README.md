@@ -84,14 +84,29 @@ Each day keyed by ISO date `YYYY-MM-DD`. `anchors` is a 5-bool array matching
 
 ## Pre-loaded data
 
-On first run (empty storage) the tool **seeds today** with the five foods Yz had
-logged when it was built, so the first session starts with real numbers:
+On first run (empty storage) the tool **seeds today** with the full day Yz
+logged on 2026-06-08 (first real tracking day), so the file opens showing a
+complete real day rather than a blank slate:
 
 1. Bagel (plain) — 1 snack
 2. Rotisserie chicken — 100g snack
 3. Sweet potato — 248g
 4. Turkey mince — 225g cooked
 5. Thai spicy prawns — 10 prawns
+6. Grapes — bowl ~150g
+7. Bagel (plain) — 2nd snack
+8. Fanta Fruit Twist — 330ml can *(flex)*
+9. Oats — 80g (final meal)
+10. Semi-skimmed milk — 125ml
+11. Whey protein — 1 scoop (20g protein)
+12. Strawberries — 170g
+13. Grapes — 95g
+14. Dates — 30g
+15. Honey — 15g
+
+Day totals: ~2,333 kcal · 149g protein · 46g fat · 330g carbs · 95 kcal flex.
+Note this day landed protein on target, but carb-heavy / fat-light (~12g under
+the 59g fat minimum) — a pattern worth watching given the visceral-fat flag.
 
 Once real data exists in storage, the seed never runs again. To wipe and
 re-seed: clear `localStorage` for the file (or Import a fresh JSON).
