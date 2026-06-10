@@ -84,32 +84,30 @@ Each day keyed by ISO date `YYYY-MM-DD`. `anchors` is a 5-bool array matching
 
 ## Pre-loaded data
 
-On first run (empty storage) the tool **seeds today** with the full day Yz
-logged on 2026-06-08 (first real tracking day), so the file opens showing a
-complete real day rather than a blank slate:
+On first run (empty storage) the tool **seeds two real days** so the file opens
+with genuine history rather than a blank slate:
 
-1. Bagel (plain) — 1 snack
-2. Rotisserie chicken — 100g snack
-3. Sweet potato — 248g
-4. Turkey mince — 225g cooked
-5. Thai spicy prawns — 10 prawns
-6. Grapes — bowl ~150g
-7. Bagel (plain) — 2nd snack
-8. Fanta Fruit Twist — 330ml can *(flex)*
-9. Oats — 80g (final meal)
-10. Semi-skimmed milk — 125ml
-11. Whey protein — 1 scoop (20g protein)
-12. Strawberries — 170g
-13. Grapes — 95g
-14. Dates — 30g
-15. Honey — 15g
+**2026-06-08 (Mon)** — 15 items · weight 89.55kg · all anchors hit.
+Totals ~2,333 kcal · 149g protein · 46g fat · 330g carbs · 95 flex.
+Carb-heavy / fat-light day.
 
-Day totals: ~2,333 kcal · 149g protein · 46g fat · 330g carbs · 95 kcal flex.
-Note this day landed protein on target, but carb-heavy / fat-light (~12g under
-the 59g fat minimum) — a pattern worth watching given the visceral-fat flag.
+**2026-06-09 (Tue)** — 16 items · weight 89.70kg · drinks day (coworker leaving
+drinks, kept to one cider). Totals ~2,056 kcal · 154g protein · 64g fat ·
+198g carbs · 380 flex (cider + Hershey, ~30 over slot). Strong protein, under
+calories, carbs low.
 
-Once real data exists in storage, the seed never runs again. To wipe and
-re-seed: clear `localStorage` for the file (or Import a fresh JSON).
+> **Important — seed only runs on EMPTY localStorage.** Once the tracker has
+> been opened and saved anything, `load()` returns existing stored data and the
+> seed is ignored. So updating the seed in the file does NOT update an
+> already-used tracker. To load new pre-baked days into a live tracker, use the
+> **Import** button with the exported JSON (see below).
+
+### Import file
+`yz-tracker-2026-06-09.json` — exported snapshot of both days above. To load:
+open `tracker.html` → **Import** → select this file. This overwrites current
+localStorage with the snapshot (also fixes Mon's data onto the correct local
+date key after the timezone bug). Keep this JSON in git as a dated backup; export
+a fresh one periodically.
 
 ---
 
@@ -154,6 +152,18 @@ Thai prawn sauce varies). To add a food, copy the pattern:
 - Day 7 / Phase review tool (auto-average kcal/protein → hold or adjust target)
 - Recomp trajectory visualiser (12–18 mo path; doubles as a coaching teaching aid)
 - Coach Nourish v2 (client intake → assessment → phased plan)
+
+---
+## Changelog / known fixes
+
+- **2026-06-09 — timezone date-key fix.** `todayKey()` previously used
+  `toISOString()`, which is UTC-based. For users behind/ahead of UTC (Yz is on
+  BST, UTC+1), evening entries were filed under the wrong calendar day, so the
+  weigh-in and week strips never matched the day on screen. Now builds the key
+  from **local** Y/M/D. Any data written before this fix may sit under a
+  UTC-shifted key; cleanest reset is to clear localStorage and re-seed, or
+  re-enter affected days. If editing dates in future, keep all date-key creation
+  going through `todayKey()` so it stays timezone-safe.
 
 ---
 *Living document — update alongside `fitness_plan.md` as stats, habits, and goals evolve.*

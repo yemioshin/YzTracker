@@ -287,20 +287,22 @@ const KEY = "yz_tracker_v1";
 let store = load();
 let viewDate = todayKey();
 
-function todayKey(d){ d=d||new Date(); return d.toISOString().slice(0,10); }
+function todayKey(d){ d=d||new Date(); const y=d.getFullYear(), m=String(d.getMonth()+1).padStart(2,'0'), da=String(d.getDate()).padStart(2,'0'); return `${y}-${m}-${da}`; }
 function load(){
-  try{ const s=JSON.parse(localStorage.getItem(KEY)); if(s&&s.days) return s; }catch(e){}
+  try{
+    const s=JSON.parse(localStorage.getItem(KEY));
+    if(s&&s.days) return s;
+  }catch(e){}
   return seed();
 }
 function save(){ localStorage.setItem(KEY, JSON.stringify(store)); }
 
 /* ---------- seed: pre-load TODAY with the 5 foods Yz already ate ---------- */
 function seed(){
-  const t = todayKey();
   return {
-    version:1,
+    version:2,
     days:{
-      [t]:{
+      "2026-06-08":{
         items:[
           {name:"Bagel (plain)", portion:"1 snack", cal:250, pro:9,  fat:1.5, carb:49, flex:false},
           {name:"Rotisserie chicken", portion:"100g snack", cal:190, pro:25, fat:9, carb:0, flex:false},
@@ -318,8 +320,30 @@ function seed(){
           {name:"Dates", portion:"30g", cal:83, pro:0.5, fat:0, carb:22, flex:false},
           {name:"Honey", portion:"15g", cal:46, pro:0, fat:0, carb:12, flex:false}
         ],
-        anchors:[false,false,false,false,false],
-        weight:null
+        anchors:[true,true,true,true,true],
+        weight:89.55
+      },
+      "2026-06-09":{
+        items:[
+          {name:"Greek yogurt", portion:"200g", cal:118, pro:20, fat:0.8, carb:7.2, flex:false},
+          {name:"Whey protein", portion:"1 scoop", cal:120, pro:24, fat:1.5, carb:3, flex:false},
+          {name:"Strawberries", portion:"100g", cal:32, pro:0.7, fat:0.3, carb:8, flex:false},
+          {name:"Grapes", portion:"80g", cal:55, pro:0.6, fat:0.2, carb:14, flex:false},
+          {name:"Dates", portion:"20g", cal:55, pro:0.3, fat:0, carb:15, flex:false},
+          {name:"Coconut flakes (fried)", portion:"15g", cal:99, pro:1, fat:9.6, carb:3.5, flex:false},
+          {name:"Rotisserie chicken (shredded)", portion:"150g (work lunch)", cal:285, pro:38, fat:13.5, carb:0, flex:false},
+          {name:"Sweet potato", portion:"250g (work lunch)", cal:215, pro:4, fat:0.2, carb:50, flex:false},
+          {name:"Broccoli", portion:"100g", cal:34, pro:2.8, fat:0.4, carb:7, flex:false},
+          {name:"Cider", portion:"330ml can", cal:170, pro:0, fat:0, carb:16, flex:true},
+          {name:"Flat white", portion:"1 cup", cal:120, pro:7, fat:6, carb:9, flex:false},
+          {name:"Hershey bar", portion:"~43g", cal:210, pro:3, fat:13, carb:26, flex:true},
+          {name:"Thai spicy prawns", portion:"6 prawns (w/ dinner)", cal:72, pro:8, fat:2.4, carb:3.6, flex:false},
+          {name:"Turkey mince", portion:"180g cooked (dinner)", cal:315, pro:40, fat:16, carb:0, flex:false},
+          {name:"Sweet potato", portion:"150g (dinner)", cal:129, pro:2.4, fat:0.1, carb:30, flex:false},
+          {name:"Broccoli", portion:"80g (dinner)", cal:27, pro:2.2, fat:0.3, carb:5.6, flex:false}
+        ],
+        anchors:[true,false,true,true,true],
+        weight:89.70
       }
     }
   };
