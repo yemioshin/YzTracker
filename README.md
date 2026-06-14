@@ -96,18 +96,43 @@ drinks, kept to one cider). Totals ~2,056 kcal · 154g protein · 64g fat ·
 198g carbs · 380 flex (cider + Hershey, ~30 over slot). Strong protein, under
 calories, carbs low.
 
-> **Important — seed only runs on EMPTY localStorage.** Once the tracker has
-> been opened and saved anything, `load()` returns existing stored data and the
-> seed is ignored. So updating the seed in the file does NOT update an
-> already-used tracker. To load new pre-baked days into a live tracker, use the
-> **Import** button with the exported JSON (see below).
+**2026-06-10 (Wed)** — training day. ~2,389 kcal · 190P · 63F · 266C · 0 flex.
+
+**2026-06-11 (Thu)** — ~1,947 kcal · 150P · 69F · 184C. Beef patty pushed fat
+high; carbs low; close-out oats. Anchors slipped (no weigh-in).
+
+**2026-06-12 (Fri)** — ~1,152 kcal · 120P · 11F · 115C · 170 flex. **Skipped
+dinner** — big undershoot (~1,100 under), very low fat. One cider.
+
+**2026-06-13 (Sat)** — ~2,483 kcal · 202P · 67F · 252C · 240 flex. Nigerian
+hall party (jollof, meat, pepper soup, cake, ~2 units + Sprite). Party plate is
+the fuzziest estimate in the dataset. High lean-chicken protein earlier.
+
+**2026-06-14 (Sun)** — partial (breakfast only at time of logging): ~694 kcal ·
+38P · 18F · 103C. Lunch/dinner not yet logged.
+
+> All grilled chicken logged as PLAIN fillet (lean) — Yz confirmed the "tenders"
+> were oven-grilled fillets, not breaded. Earlier breaded estimates corrected.
+
+### Week 1 averages (Mon 8 – Sat 13, six full days)
+**~2,060 kcal · 161g protein · 53g fat · 224g carbs.**
+Read: protein consistently cleared (often well over — 190g, 202g on some days).
+Carbs chronically under 283 target. Fat under 59 min on average, dragged by very
+low days (Fri 11g). Biggest issue is **day-to-day variance** — a skipped dinner
+(Fri) and a party (Sat) swing ~1,300 kcal apart. Pattern is a structure/prep
+gap, not willpower. Likely Day-7 adjustment: stop chasing protein past ~150g,
+redirect into carbs + a reliable daily fat source; batch-prep to kill the
+skipped-meal swings.
+
+> **Important — seed only runs on EMPTY localStorage.** Once opened and saved,
+> `load()` returns stored data and the seed is ignored. To load pre-baked days
+> into a live tracker, use **Import** with the exported JSON below.
 
 ### Import file
-`yz-tracker-2026-06-09.json` — exported snapshot of both days above. To load:
-open `tracker.html` → **Import** → select this file. This overwrites current
-localStorage with the snapshot (also fixes Mon's data onto the correct local
-date key after the timezone bug). Keep this JSON in git as a dated backup; export
-a fresh one periodically.
+`yz-tracker-2026-06-14.json` — snapshot of all 7 days (Sun partial). To load:
+open `tracker.html` → **Import** → select this file (overwrites localStorage).
+Keep in git as a dated backup; export fresh as days accumulate. (Supersedes
+earlier dated snapshots.)
 
 ---
 
