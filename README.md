@@ -108,31 +108,31 @@ dinner** — big undershoot (~1,100 under), very low fat. One cider.
 hall party (jollof, meat, pepper soup, cake, ~2 units + Sprite). Party plate is
 the fuzziest estimate in the dataset. High lean-chicken protein earlier.
 
-**2026-06-14 (Sun)** — partial (breakfast only at time of logging): ~694 kcal ·
-38P · 18F · 103C. Lunch/dinner not yet logged.
+**2026-06-14 (Sun)** — partial (breakfast only logged): ~694 kcal · 38P · 18F ·
+103C.
 
-> All grilled chicken logged as PLAIN fillet (lean) — Yz confirmed the "tenders"
-> were oven-grilled fillets, not breaded. Earlier breaded estimates corrected.
+**2026-06-15 (Mon)** — ~2,700 kcal · 165P · 87F · 321C · 655 flex. Big day: two
+full turkey-mince meals + Nigerian beans (good protein/fibre add) + ~100g
+chocolate (~535 kcal alone) + juice. ~450 over target; fat high (chocolate);
+flex slot near-doubled (~655 vs 350). Protein & carbs comfortably hit.
 
-### Week 1 averages (Mon 8 – Sat 13, six full days)
-**~2,060 kcal · 161g protein · 53g fat · 224g carbs.**
-Read: protein consistently cleared (often well over — 190g, 202g on some days).
-Carbs chronically under 283 target. Fat under 59 min on average, dragged by very
-low days (Fri 11g). Biggest issue is **day-to-day variance** — a skipped dinner
-(Fri) and a party (Sat) swing ~1,300 kcal apart. Pattern is a structure/prep
-gap, not willpower. Likely Day-7 adjustment: stop chasing protein past ~150g,
-redirect into carbs + a reliable daily fat source; batch-prep to kill the
-skipped-meal swings.
+**2026-06-16 (Tue)** — partial (breakfast ~2pm + meal 2): ~1,564 kcal · 92P ·
+39F · 215C · 240 flex. 2 cups juice. Dinner not yet logged at snapshot time.
 
-> **Important — seed only runs on EMPTY localStorage.** Once opened and saved,
-> `load()` returns stored data and the seed is ignored. To load pre-baked days
-> into a live tracker, use **Import** with the exported JSON below.
+> **Emerging patterns across the 9 days:** (1) protein reliably cleared, often
+> well over 150g — room to ease off and redirect to carbs; (2) **healthy juice
+> now a daily multi-cup habit** (~120 kcal/56g carbs per 2 cups) and (3)
+> **chocolate/dates** are the recurring flex-slot fillers — none "bad", but
+> together they're the main source of the flex slot blowing past 350 on big
+> days; (4) big day-to-day swings persist (694 → 2,700 kcal) — prep is the lever.
+
+> **Important — seed only runs on EMPTY localStorage.** Use **Import** with the
+> exported JSON below to load pre-baked days into a live tracker.
 
 ### Import file
-`yz-tracker-2026-06-14.json` — snapshot of all 7 days (Sun partial). To load:
-open `tracker.html` → **Import** → select this file (overwrites localStorage).
-Keep in git as a dated backup; export fresh as days accumulate. (Supersedes
-earlier dated snapshots.)
+`yz-tracker-2026-06-16.json` — snapshot of all 9 days (Sun & Tue partial). Open
+`tracker.html` → **Import** → select this file (overwrites localStorage).
+Supersedes earlier dated snapshots.
 
 ---
 
