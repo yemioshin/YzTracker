@@ -1,0 +1,1310 @@
+{
+  "version": 2,
+  "days": {
+    "2026-06-08": {
+      "items": [
+        {
+          "name": "Bagel (plain)",
+          "portion": "1 snack",
+          "cal": 250,
+          "pro": 9,
+          "fat": 1.5,
+          "carb": 49,
+          "flex": false
+        },
+        {
+          "name": "Rotisserie chicken",
+          "portion": "100g snack",
+          "cal": 190,
+          "pro": 25,
+          "fat": 9,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "248g",
+          "cal": 213,
+          "pro": 4,
+          "fat": 0.2,
+          "carb": 50,
+          "flex": false
+        },
+        {
+          "name": "Turkey mince",
+          "portion": "225g cooked",
+          "cal": 396,
+          "pro": 50,
+          "fat": 20,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Thai spicy prawns",
+          "portion": "10 prawns",
+          "cal": 120,
+          "pro": 14,
+          "fat": 4,
+          "carb": 6,
+          "flex": false
+        },
+        {
+          "name": "Grapes",
+          "portion": "bowl ~150g",
+          "cal": 104,
+          "pro": 1,
+          "fat": 0.3,
+          "carb": 27,
+          "flex": false
+        },
+        {
+          "name": "Bagel (plain)",
+          "portion": "2nd snack",
+          "cal": 250,
+          "pro": 9,
+          "fat": 1.5,
+          "carb": 49,
+          "flex": false
+        },
+        {
+          "name": "Fanta Fruit Twist",
+          "portion": "330ml can",
+          "cal": 95,
+          "pro": 0,
+          "fat": 0,
+          "carb": 23,
+          "flex": true
+        },
+        {
+          "name": "Oats",
+          "portion": "80g (final meal)",
+          "cal": 303,
+          "pro": 10,
+          "fat": 5,
+          "carb": 54,
+          "flex": false
+        },
+        {
+          "name": "Semi-skimmed milk",
+          "portion": "125ml",
+          "cal": 63,
+          "pro": 4.3,
+          "fat": 2.3,
+          "carb": 6,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop (20g protein)",
+          "cal": 100,
+          "pro": 20,
+          "fat": 1.5,
+          "carb": 2,
+          "flex": false
+        },
+        {
+          "name": "Strawberries",
+          "portion": "170g",
+          "cal": 54,
+          "pro": 1.2,
+          "fat": 0.5,
+          "carb": 13,
+          "flex": false
+        },
+        {
+          "name": "Grapes",
+          "portion": "95g (final meal)",
+          "cal": 66,
+          "pro": 0.7,
+          "fat": 0.2,
+          "carb": 17,
+          "flex": false
+        },
+        {
+          "name": "Dates",
+          "portion": "30g",
+          "cal": 83,
+          "pro": 0.5,
+          "fat": 0,
+          "carb": 22,
+          "flex": false
+        },
+        {
+          "name": "Honey",
+          "portion": "15g",
+          "cal": 46,
+          "pro": 0,
+          "fat": 0,
+          "carb": 12,
+          "flex": false
+        }
+      ],
+      "anchors": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "weight": 89.55
+    },
+    "2026-06-09": {
+      "items": [
+        {
+          "name": "Greek yogurt",
+          "portion": "200g",
+          "cal": 118,
+          "pro": 20,
+          "fat": 0.8,
+          "carb": 7.2,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop",
+          "cal": 120,
+          "pro": 24,
+          "fat": 1.5,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Strawberries",
+          "portion": "100g",
+          "cal": 32,
+          "pro": 0.7,
+          "fat": 0.3,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Grapes",
+          "portion": "80g",
+          "cal": 55,
+          "pro": 0.6,
+          "fat": 0.2,
+          "carb": 14,
+          "flex": false
+        },
+        {
+          "name": "Dates",
+          "portion": "20g",
+          "cal": 55,
+          "pro": 0.3,
+          "fat": 0,
+          "carb": 15,
+          "flex": false
+        },
+        {
+          "name": "Coconut flakes (fried)",
+          "portion": "15g",
+          "cal": 99,
+          "pro": 1,
+          "fat": 9.6,
+          "carb": 3.5,
+          "flex": false
+        },
+        {
+          "name": "Rotisserie chicken (shredded)",
+          "portion": "150g (work lunch)",
+          "cal": 285,
+          "pro": 38,
+          "fat": 13.5,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "250g (work lunch)",
+          "cal": 215,
+          "pro": 4,
+          "fat": 0.2,
+          "carb": 50,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "100g",
+          "cal": 34,
+          "pro": 2.8,
+          "fat": 0.4,
+          "carb": 7,
+          "flex": false
+        },
+        {
+          "name": "Cider",
+          "portion": "330ml can",
+          "cal": 170,
+          "pro": 0,
+          "fat": 0,
+          "carb": 16,
+          "flex": true
+        },
+        {
+          "name": "Flat white",
+          "portion": "1 cup",
+          "cal": 120,
+          "pro": 7,
+          "fat": 6,
+          "carb": 9,
+          "flex": false
+        },
+        {
+          "name": "Hershey bar",
+          "portion": "~43g",
+          "cal": 210,
+          "pro": 3,
+          "fat": 13,
+          "carb": 26,
+          "flex": true
+        },
+        {
+          "name": "Thai spicy prawns",
+          "portion": "6 prawns (w/ dinner)",
+          "cal": 72,
+          "pro": 8,
+          "fat": 2.4,
+          "carb": 3.6,
+          "flex": false
+        },
+        {
+          "name": "Turkey mince",
+          "portion": "180g cooked (dinner)",
+          "cal": 315,
+          "pro": 40,
+          "fat": 16,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "150g (dinner)",
+          "cal": 129,
+          "pro": 2.4,
+          "fat": 0.1,
+          "carb": 30,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "80g (dinner)",
+          "cal": 27,
+          "pro": 2.2,
+          "fat": 0.3,
+          "carb": 5.6,
+          "flex": false
+        }
+      ],
+      "anchors": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "weight": 89.7
+    },
+    "2026-06-10": {
+      "items": [
+        {
+          "name": "Oats",
+          "portion": "80g",
+          "cal": 303,
+          "pro": 10,
+          "fat": 5,
+          "carb": 54,
+          "flex": false
+        },
+        {
+          "name": "Semi-skimmed milk",
+          "portion": "240ml",
+          "cal": 122,
+          "pro": 8.4,
+          "fat": 4.3,
+          "carb": 11.5,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop",
+          "cal": 120,
+          "pro": 24,
+          "fat": 1.5,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Strawberries",
+          "portion": "100g",
+          "cal": 32,
+          "pro": 0.7,
+          "fat": 0.3,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Grapes",
+          "portion": "80g",
+          "cal": 55,
+          "pro": 0.6,
+          "fat": 0.2,
+          "carb": 14,
+          "flex": false
+        },
+        {
+          "name": "Pumpkin seeds",
+          "portion": "~15g",
+          "cal": 84,
+          "pro": 4.5,
+          "fat": 7.4,
+          "carb": 1.7,
+          "flex": false
+        },
+        {
+          "name": "Chicken breast (cooked)",
+          "portion": "200g (lunch)",
+          "cal": 330,
+          "pro": 62,
+          "fat": 7,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "250g (lunch)",
+          "cal": 215,
+          "pro": 4,
+          "fat": 0.2,
+          "carb": 50,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "100g (lunch)",
+          "cal": 40,
+          "pro": 3,
+          "fat": 0.4,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Turkey mince",
+          "portion": "175g cooked (dinner)",
+          "cal": 308,
+          "pro": 39,
+          "fat": 15.5,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Rotisserie chicken (shredded)",
+          "portion": "35g (dinner)",
+          "cal": 67,
+          "pro": 9,
+          "fat": 3,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Pitta bread",
+          "portion": "2 (dinner)",
+          "cal": 330,
+          "pro": 11,
+          "fat": 1.4,
+          "carb": 66,
+          "flex": false
+        },
+        {
+          "name": "Cheese",
+          "portion": "50g (dinner)",
+          "cal": 206,
+          "pro": 12.5,
+          "fat": 17,
+          "carb": 1.5,
+          "flex": false
+        },
+        {
+          "name": "Dates",
+          "portion": "8 (~64g)",
+          "cal": 177,
+          "pro": 1.1,
+          "fat": 0,
+          "carb": 48,
+          "flex": false
+        }
+      ],
+      "anchors": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "weight": 89.6
+    },
+    "2026-06-11": {
+      "items": [
+        {
+          "name": "Greek yogurt",
+          "portion": "200g (bowl)",
+          "cal": 118,
+          "pro": 20,
+          "fat": 0.8,
+          "carb": 7.2,
+          "flex": false
+        },
+        {
+          "name": "Strawberries",
+          "portion": "100g",
+          "cal": 32,
+          "pro": 0.7,
+          "fat": 0.3,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Grapes",
+          "portion": "80g",
+          "cal": 55,
+          "pro": 0.6,
+          "fat": 0.2,
+          "carb": 14,
+          "flex": false
+        },
+        {
+          "name": "Coconut flakes (fried)",
+          "portion": "15g",
+          "cal": 99,
+          "pro": 1,
+          "fat": 9.6,
+          "carb": 3.5,
+          "flex": false
+        },
+        {
+          "name": "Rotisserie chicken (shredded)",
+          "portion": "210g (lunch)",
+          "cal": 399,
+          "pro": 53,
+          "fat": 19,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "250g (lunch)",
+          "cal": 215,
+          "pro": 4,
+          "fat": 0.2,
+          "carb": 50,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "100g",
+          "cal": 40,
+          "pro": 3,
+          "fat": 0.4,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Beef patty",
+          "portion": "~150g",
+          "cal": 360,
+          "pro": 26,
+          "fat": 28,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Grapes",
+          "portion": "150g",
+          "cal": 104,
+          "pro": 1,
+          "fat": 0.3,
+          "carb": 27,
+          "flex": false
+        },
+        {
+          "name": "Oats",
+          "portion": "80g (close-out)",
+          "cal": 303,
+          "pro": 10,
+          "fat": 5,
+          "carb": 54,
+          "flex": false
+        },
+        {
+          "name": "Semi-skimmed milk",
+          "portion": "200ml",
+          "cal": 102,
+          "pro": 7,
+          "fat": 3.6,
+          "carb": 9.6,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop (close-out)",
+          "cal": 120,
+          "pro": 24,
+          "fat": 1.5,
+          "carb": 3,
+          "flex": false
+        }
+      ],
+      "anchors": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "weight": null
+    },
+    "2026-06-12": {
+      "items": [
+        {
+          "name": "Greek yogurt",
+          "portion": "200g (bowl)",
+          "cal": 118,
+          "pro": 20,
+          "fat": 0.8,
+          "carb": 7.2,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop",
+          "cal": 120,
+          "pro": 24,
+          "fat": 1.5,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Strawberries",
+          "portion": "100g",
+          "cal": 32,
+          "pro": 0.7,
+          "fat": 0.3,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Dates",
+          "portion": "~4 (32g)",
+          "cal": 89,
+          "pro": 0.6,
+          "fat": 0,
+          "carb": 24,
+          "flex": false
+        },
+        {
+          "name": "Chicken fillet (grilled)",
+          "portion": "225g (lunch)",
+          "cal": 371,
+          "pro": 70,
+          "fat": 8,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "270g (lunch)",
+          "cal": 232,
+          "pro": 4,
+          "fat": 0.2,
+          "carb": 54,
+          "flex": false
+        },
+        {
+          "name": "Green salad",
+          "portion": "side",
+          "cal": 20,
+          "pro": 1,
+          "fat": 0,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Cider",
+          "portion": "330ml can",
+          "cal": 170,
+          "pro": 0,
+          "fat": 0,
+          "carb": 16,
+          "flex": true
+        }
+      ],
+      "anchors": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      "weight": null
+    },
+    "2026-06-13": {
+      "items": [
+        {
+          "name": "Chicken fillet wrap",
+          "portion": "250g chicken, wrap, salad, cheese (breakfast)",
+          "cal": 620,
+          "pro": 87,
+          "fat": 24,
+          "carb": 32,
+          "flex": false
+        },
+        {
+          "name": "Chicken fillet (grilled)",
+          "portion": "225g (lunch)",
+          "cal": 371,
+          "pro": 70,
+          "fat": 8,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "270g (lunch)",
+          "cal": 232,
+          "pro": 4,
+          "fat": 0.2,
+          "carb": 54,
+          "flex": false
+        },
+        {
+          "name": "Green salad",
+          "portion": "side",
+          "cal": 20,
+          "pro": 1,
+          "fat": 0,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Jollof rice + meat + pepper soup + cake (party)",
+          "portion": "est. plate",
+          "cal": 1000,
+          "pro": 40,
+          "fat": 35,
+          "carb": 120,
+          "flex": false
+        },
+        {
+          "name": "Drinks ~2 units + Sprite (party)",
+          "portion": "~2 units + 330ml Sprite",
+          "cal": 240,
+          "pro": 0,
+          "fat": 0,
+          "carb": 43,
+          "flex": true
+        }
+      ],
+      "anchors": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "weight": null
+    },
+    "2026-06-14": {
+      "items": [
+        {
+          "name": "Oats",
+          "portion": "90g (breakfast)",
+          "cal": 341,
+          "pro": 11,
+          "fat": 6,
+          "carb": 61,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop",
+          "cal": 120,
+          "pro": 24,
+          "fat": 1.5,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Strawberries",
+          "portion": "140g",
+          "cal": 45,
+          "pro": 1,
+          "fat": 0.4,
+          "carb": 11,
+          "flex": false
+        },
+        {
+          "name": "Dates",
+          "portion": "4 (~32g)",
+          "cal": 89,
+          "pro": 0.6,
+          "fat": 0,
+          "carb": 24,
+          "flex": false
+        },
+        {
+          "name": "Coconut flakes (fried)",
+          "portion": "~15g",
+          "cal": 99,
+          "pro": 1,
+          "fat": 9.6,
+          "carb": 3.5,
+          "flex": false
+        },
+        {
+          "name": "Jollof rice",
+          "portion": "~250g (lunch, est.)",
+          "cal": 425,
+          "pro": 8,
+          "fat": 13,
+          "carb": 68,
+          "flex": false
+        },
+        {
+          "name": "Cooked beef/meat",
+          "portion": "~150g (lunch, est.)",
+          "cal": 330,
+          "pro": 38,
+          "fat": 19,
+          "carb": 0,
+          "flex": false
+        }
+      ],
+      "anchors": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "weight": null
+    },
+    "2026-06-15": {
+      "items": [
+        {
+          "name": "Oats",
+          "portion": "85g (breakfast)",
+          "cal": 322,
+          "pro": 11,
+          "fat": 5.5,
+          "carb": 58,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop",
+          "cal": 120,
+          "pro": 24,
+          "fat": 1.5,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Dates",
+          "portion": "~4 (32g)",
+          "cal": 89,
+          "pro": 0.6,
+          "fat": 0,
+          "carb": 24,
+          "flex": false
+        },
+        {
+          "name": "Banana",
+          "portion": "1",
+          "cal": 105,
+          "pro": 1.3,
+          "fat": 0.4,
+          "carb": 27,
+          "flex": false
+        },
+        {
+          "name": "Coconut flakes (fried)",
+          "portion": "~15g",
+          "cal": 99,
+          "pro": 1,
+          "fat": 9.6,
+          "carb": 3.5,
+          "flex": false
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "250g (lunch)",
+          "cal": 215,
+          "pro": 4,
+          "fat": 0.2,
+          "carb": 50,
+          "flex": false
+        },
+        {
+          "name": "Turkey mince",
+          "portion": "200g (lunch)",
+          "cal": 352,
+          "pro": 44,
+          "fat": 18,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "100g (lunch)",
+          "cal": 40,
+          "pro": 3,
+          "fat": 0.4,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Nigerian beans",
+          "portion": "200g (dinner)",
+          "cal": 311,
+          "pro": 21,
+          "fat": 2,
+          "carb": 53,
+          "flex": false
+        },
+        {
+          "name": "Turkey mince",
+          "portion": "200g (dinner)",
+          "cal": 352,
+          "pro": 44,
+          "fat": 18,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "100g (dinner)",
+          "cal": 40,
+          "pro": 3,
+          "fat": 0.4,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Chocolate",
+          "portion": "~100g",
+          "cal": 535,
+          "pro": 7,
+          "fat": 31,
+          "carb": 58,
+          "flex": true
+        },
+        {
+          "name": "Healthy juice",
+          "portion": "1 cup",
+          "cal": 120,
+          "pro": 1,
+          "fat": 0.3,
+          "carb": 28,
+          "flex": true
+        }
+      ],
+      "anchors": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "weight": null
+    },
+    "2026-06-16": {
+      "items": [
+        {
+          "name": "Oats",
+          "portion": "80g (breakfast ~2pm)",
+          "cal": 303,
+          "pro": 10,
+          "fat": 5,
+          "carb": 54,
+          "flex": false
+        },
+        {
+          "name": "Whole milk",
+          "portion": "80ml",
+          "cal": 50,
+          "pro": 2.6,
+          "fat": 2.6,
+          "carb": 3.8,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop",
+          "cal": 120,
+          "pro": 24,
+          "fat": 1.5,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Strawberries",
+          "portion": "100g",
+          "cal": 32,
+          "pro": 0.7,
+          "fat": 0.3,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Blueberries",
+          "portion": "80g",
+          "cal": 46,
+          "pro": 0.6,
+          "fat": 0.3,
+          "carb": 11,
+          "flex": false
+        },
+        {
+          "name": "Dates",
+          "portion": "3 (~24g)",
+          "cal": 67,
+          "pro": 0.4,
+          "fat": 0,
+          "carb": 18,
+          "flex": false
+        },
+        {
+          "name": "Coconut flakes (fried)",
+          "portion": "~15g",
+          "cal": 99,
+          "pro": 1,
+          "fat": 9.6,
+          "carb": 3.5,
+          "flex": false
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "250g (meal 2)",
+          "cal": 215,
+          "pro": 4,
+          "fat": 0.2,
+          "carb": 50,
+          "flex": false
+        },
+        {
+          "name": "Turkey mince",
+          "portion": "200g (meal 2)",
+          "cal": 352,
+          "pro": 44,
+          "fat": 18,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "100g (meal 2)",
+          "cal": 40,
+          "pro": 3,
+          "fat": 0.4,
+          "carb": 8,
+          "flex": false
+        },
+        {
+          "name": "Healthy juice",
+          "portion": "2 cups",
+          "cal": 240,
+          "pro": 2,
+          "fat": 0.6,
+          "carb": 56,
+          "flex": true
+        }
+      ],
+      "anchors": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "weight": null
+    },
+    "2026-06-17": {
+      "items": [
+        {
+          "name": "Oats",
+          "portion": "80g (breakfast)",
+          "cal": 303,
+          "pro": 10,
+          "fat": 5,
+          "carb": 54,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop",
+          "cal": 120,
+          "pro": 24,
+          "fat": 1.5,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Strawberries",
+          "portion": "200g",
+          "cal": 64,
+          "pro": 1.4,
+          "fat": 0.6,
+          "carb": 16,
+          "flex": false
+        },
+        {
+          "name": "Blueberries",
+          "portion": "80g",
+          "cal": 46,
+          "pro": 0.6,
+          "fat": 0.3,
+          "carb": 11,
+          "flex": false
+        },
+        {
+          "name": "Dates",
+          "portion": "4 (~32g)",
+          "cal": 89,
+          "pro": 0.6,
+          "fat": 0,
+          "carb": 24,
+          "flex": false
+        },
+        {
+          "name": "Coconut flakes (fried)",
+          "portion": "~15g",
+          "cal": 99,
+          "pro": 1,
+          "fat": 9.6,
+          "carb": 3.5,
+          "flex": false
+        },
+        {
+          "name": "Semi-skimmed milk",
+          "portion": "250ml",
+          "cal": 128,
+          "pro": 8.8,
+          "fat": 4.5,
+          "carb": 12,
+          "flex": false
+        },
+        {
+          "name": "Flat Iron: sirloin steak + chips + mash + ice cream",
+          "portion": "work lunch (est.)",
+          "cal": 1150,
+          "pro": 55,
+          "fat": 60,
+          "carb": 95,
+          "flex": false
+        },
+        {
+          "name": "Cider",
+          "portion": "can (lunch)",
+          "cal": 170,
+          "pro": 0,
+          "fat": 0,
+          "carb": 16,
+          "flex": true
+        },
+        {
+          "name": "Bao: bone marrow beef noodles + fried chicken bao",
+          "portion": "dinner (est.)",
+          "cal": 750,
+          "pro": 38,
+          "fat": 32,
+          "carb": 70,
+          "flex": false
+        }
+      ],
+      "anchors": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "weight": null
+    },
+    "2026-06-18": {
+      "items": [
+        {
+          "name": "Oats",
+          "portion": "80g (breakfast)",
+          "cal": 303,
+          "pro": 10,
+          "fat": 5,
+          "carb": 54,
+          "flex": false
+        },
+        {
+          "name": "Whey protein",
+          "portion": "1 scoop",
+          "cal": 120,
+          "pro": 24,
+          "fat": 1.5,
+          "carb": 3,
+          "flex": false
+        },
+        {
+          "name": "Strawberries",
+          "portion": "200g",
+          "cal": 64,
+          "pro": 1.4,
+          "fat": 0.6,
+          "carb": 16,
+          "flex": false
+        },
+        {
+          "name": "Blueberries",
+          "portion": "80g",
+          "cal": 46,
+          "pro": 0.6,
+          "fat": 0.3,
+          "carb": 11,
+          "flex": false
+        },
+        {
+          "name": "Dates",
+          "portion": "4 (~32g)",
+          "cal": 89,
+          "pro": 0.6,
+          "fat": 0,
+          "carb": 24,
+          "flex": false
+        },
+        {
+          "name": "Coconut flakes (fried)",
+          "portion": "~15g",
+          "cal": 99,
+          "pro": 1,
+          "fat": 9.6,
+          "carb": 3.5,
+          "flex": false
+        },
+        {
+          "name": "Semi-skimmed milk",
+          "portion": "250ml",
+          "cal": 128,
+          "pro": 8.8,
+          "fat": 4.5,
+          "carb": 12,
+          "flex": false
+        },
+        {
+          "name": "Wasabi: chicken katsu curry + cider + cake",
+          "portion": "work lunch / retirement do (est.)",
+          "cal": 1150,
+          "pro": 35,
+          "fat": 38,
+          "carb": 140,
+          "flex": true
+        },
+        {
+          "name": "Sweet potato",
+          "portion": "265g (dinner)",
+          "cal": 228,
+          "pro": 4.2,
+          "fat": 0.2,
+          "carb": 53,
+          "flex": false
+        },
+        {
+          "name": "Turkey mince",
+          "portion": "250g (dinner)",
+          "cal": 440,
+          "pro": 55,
+          "fat": 22.5,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "100g (dinner)",
+          "cal": 34,
+          "pro": 2.8,
+          "fat": 0.4,
+          "carb": 7,
+          "flex": false
+        }
+      ],
+      "anchors": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "weight": null
+    },
+    "2026-06-19": {
+      "items": [
+        {
+          "name": "Jollof rice",
+          "portion": "120g (meal 1, 3pm)",
+          "cal": 204,
+          "pro": 3.6,
+          "fat": 6,
+          "carb": 34,
+          "flex": false
+        },
+        {
+          "name": "Turkey mince",
+          "portion": "250g (meal 1)",
+          "cal": 440,
+          "pro": 55,
+          "fat": 22.5,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "100g (meal 1)",
+          "cal": 34,
+          "pro": 2.8,
+          "fat": 0.4,
+          "carb": 7,
+          "flex": false
+        },
+        {
+          "name": "White rice (cooked)",
+          "portion": "~200g (dinner)",
+          "cal": 260,
+          "pro": 5.4,
+          "fat": 0.6,
+          "carb": 56,
+          "flex": false
+        },
+        {
+          "name": "Turkey mince",
+          "portion": "265g (dinner)",
+          "cal": 466,
+          "pro": 58,
+          "fat": 24,
+          "carb": 0,
+          "flex": false
+        },
+        {
+          "name": "Broccoli",
+          "portion": "100g (dinner)",
+          "cal": 34,
+          "pro": 2.8,
+          "fat": 0.4,
+          "carb": 7,
+          "flex": false
+        }
+      ],
+      "anchors": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "weight": null
+    }
+  }
+}

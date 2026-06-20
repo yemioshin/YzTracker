@@ -126,13 +126,26 @@ flex slot near-doubled (~655 vs 350). Protein & carbs comfortably hit.
 > together they're the main source of the flex slot blowing past 350 on big
 > days; (4) big day-to-day swings persist (694 → 2,700 kcal) — prep is the lever.
 
+**2026-06-17 (Wed)** — ~2,919 kcal · 139P · 114F · 305C. Two restaurant meals
+(Flat Iron steak+chips+mash+ice cream; Bao noodles+bun) + cider. Fat very high
+(eating out). Estimates soft ±300.
+
+**2026-06-18 (Thu)** — ~2,701 kcal · 143P · 83F · 324C. Wasabi katsu curry +
+cider + cake (manager's retirement) + clean turkey/sweet potato dinner.
+
+**2026-06-19 (Fri)** — ~1,438 kcal · 128P · 54F · 104C. Two turkey-mince meals,
+late 3pm start. Under on calories/carbs — same late-start swing.
+
+> **Paris trip 20–24 Jun** — Yz travelling 5 days; logging likely paused. Resume
+> on return; expect a gap in the data (Sat 20 onward).
+
 > **Important — seed only runs on EMPTY localStorage.** Use **Import** with the
-> exported JSON below to load pre-baked days into a live tracker.
+> JSON below to load into a live tracker.
 
 ### Import file
-`yz-tracker-2026-06-16.json` — snapshot of all 9 days (Sun & Tue partial). Open
-`tracker.html` → **Import** → select this file (overwrites localStorage).
-Supersedes earlier dated snapshots.
+`yz-tracker-2026-06-19.json` — full snapshot, all 12 days (8th–19th June; Sun 14
+dinner unlogged). Open `tracker.html` → **Import** → select file. Supersedes all
+earlier snapshots.
 
 ---
 
